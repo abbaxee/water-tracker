@@ -27,8 +27,9 @@ const TargetModal = ({modalVisible, closeModal, handleSetTarget}) => {
       Alert.alert('Error', 'Target can not be a negative number');
       return;
     }
-    await AsyncStorage.setItem('@stored_target', text);
     handleSetTarget(text);
+
+    await AsyncStorage.setItem('@stored_target', text);
     setText('');
     closeModal();
   };
@@ -52,6 +53,7 @@ const TargetModal = ({modalVisible, closeModal, handleSetTarget}) => {
           </Text>
           <View style={styles.inputContainer}>
             <TextInput
+              testID="text-input"
               value={text}
               onChangeText={setText}
               style={styles.inputStyle}
