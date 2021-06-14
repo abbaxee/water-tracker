@@ -11,9 +11,9 @@ describe('test convertToLiter function', () => {
 
 describe('test calculatedHeightToFill function', () => {
   it('should return the height to fill when entered', () => {
-    // the human graphics will fill the (human height - resulting value) eg. 344 - 309.6
-
     expect(calculatedHeightToFill(450, 4500)).toEqual(309.6);
     expect(calculatedHeightToFill(450, 3500)).toEqual(299.7714285714286);
+
+    // the human graphics will fill by the (human height - resulting value) eg. 344 - 309.6
   });
 });
