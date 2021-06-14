@@ -9,6 +9,12 @@
 - To run on android emulator run `npm run android`
 - To install the pod files, `cd ios` and run `pod install` which will download the required dependencies for your pod files
 
+## Screen Recording
+
+https://user-images.githubusercontent.com/23516860/121865588-0c945180-ccf6-11eb-99e9-cfa4c7d8054e.mp4
+
+
+
 ## Screen shots for different screens
 
 ### Iphone 12 - simulator
