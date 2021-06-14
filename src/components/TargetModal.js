@@ -20,7 +20,7 @@ const TargetModal = ({modalVisible, closeModal, handleSetTarget}) => {
 
   const setTarget = async () => {
     if (!text) {
-      Alert.alert('', 'Enter a number');
+      Alert.alert('Error', 'Enter a number');
       return;
     }
     if (Number(text) < 0) {
@@ -52,7 +52,6 @@ const TargetModal = ({modalVisible, closeModal, handleSetTarget}) => {
           </Text>
           <View style={styles.inputContainer}>
             <TextInput
-              testID="text-input"
               value={text}
               onChangeText={setText}
               style={styles.inputStyle}
