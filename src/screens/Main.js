@@ -10,7 +10,6 @@ import React, {useState, useEffect} from 'react';
 import {
   SafeAreaView,
   StatusBar,
-  StyleSheet,
   Text,
   View,
   TouchableOpacity,
@@ -18,12 +17,12 @@ import {
 } from 'react-native';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import HorizontalPicker from '@vseslav/react-native-horizontal-picker';
-import {calculatedHeightToFill, convertToLiter, hp, wp} from '../utils';
-import {PRIMARY, WHITE_COLOR} from '../utils/Colors';
+import {calculatedHeightToFill, convertToLiter, hp} from '../utils';
 import HeaderText from '../components/HeaderText';
 import {AddIcon, SubtractIcon, HumanIcon, EditIcon} from '../../assets/Svgs';
 import Quantity from '../components/Quantity';
 import TargetModal from '../components/TargetModal';
+import {mainStyles as styles} from './styles';
 
 const Main = () => {
   const quantities = [150, 250, 350, 450];
@@ -165,61 +164,5 @@ const Main = () => {
     </>
   );
 };
-
-const styles = StyleSheet.create({
-  mainContainer: {
-    flex: 1,
-    backgroundColor: PRIMARY,
-  },
-  contentContainer: {
-    flex: 1,
-    paddingVertical: hp(20),
-    paddingHorizontal: wp(20),
-    justifyContent: 'space-between',
-  },
-  headerContent: {
-    flexDirection: 'row',
-    alignItems: 'center',
-    justifyContent: 'space-between',
-  },
-  imageContainer: {
-    alignItems: 'center',
-  },
-  imageStyle: {
-    height: hp(344),
-    width: wp(146),
-  },
-  imageSubtitle: {
-    fontSize: hp(20),
-    color: WHITE_COLOR,
-    fontWeight: '600',
-    textAlign: 'center',
-    maxWidth: wp(149),
-    marginTop: hp(28),
-  },
-  targetContainer: {
-    position: 'absolute',
-    right: wp(10),
-    top: hp(-7),
-  },
-  targetInnerContainer: {
-    flexDirection: 'row',
-  },
-  targetText: {
-    fontSize: hp(20),
-    color: WHITE_COLOR,
-    fontWeight: '600',
-    marginRight: wp(8),
-  },
-  actionButtonsContainer: {
-    flexDirection: 'row',
-    alignItems: 'center',
-    justifyContent: 'center',
-    marginTop: hp(24),
-  },
-  buttonStyle: {
-    marginHorizontal: wp(11),
-  },
-});
 
 export default Main;
