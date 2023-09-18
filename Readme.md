@@ -1,4 +1,6 @@
-# Genflow Coding Task
+# Water tracker - react native.
+
+This project demontrates how to build a water tracker with react native
 
 ### Installation
 
