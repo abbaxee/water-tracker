@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00E356F31AD99517003FC87E /* GenFlowTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* GenFlowTestTests.m */; };
+		00E356F31AD99517003FC87E /* watertrackerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* watertrackerTests.m */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		1BEB017F374EE3787B32805C /* libPods-GenFlowTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 40894B513281BAA449AE2694 /* libPods-GenFlowTest.a */; };
+		1BEB017F374EE3787B32805C /* libPods-watertracker.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 40894B513281BAA449AE2694 /* libPods-watertracker.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
-		9436ACD56CD6B19B63252B9E /* libPods-GenFlowTest-GenFlowTestTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C3E4606B3BCA4664ECCA5F73 /* libPods-GenFlowTest-GenFlowTestTests.a */; };
+		9436ACD56CD6B19B63252B9E /* libPods-watertracker-watertrackerTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C3E4606B3BCA4664ECCA5F73 /* libPods-watertracker-watertrackerTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -22,27 +22,27 @@
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
-			remoteInfo = GenFlowTest;
+			remoteInfo = watertracker;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00E356EE1AD99517003FC87E /* GenFlowTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GenFlowTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356EE1AD99517003FC87E /* watertrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = watertrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		00E356F21AD99517003FC87E /* GenFlowTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GenFlowTestTests.m; sourceTree = "<group>"; };
-		13B07F961A680F5B00A75B9A /* GenFlowTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GenFlowTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = GenFlowTest/AppDelegate.h; sourceTree = "<group>"; };
-		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = GenFlowTest/AppDelegate.m; sourceTree = "<group>"; };
-		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = GenFlowTest/Images.xcassets; sourceTree = "<group>"; };
-		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = GenFlowTest/Info.plist; sourceTree = "<group>"; };
-		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = GenFlowTest/main.m; sourceTree = "<group>"; };
-		1C2877BECD595E41D23EC4C1 /* Pods-GenFlowTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GenFlowTest.debug.xcconfig"; path = "Target Support Files/Pods-GenFlowTest/Pods-GenFlowTest.debug.xcconfig"; sourceTree = "<group>"; };
-		319EF26709B2E0DEB6382DA7 /* Pods-GenFlowTest-GenFlowTestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GenFlowTest-GenFlowTestTests.debug.xcconfig"; path = "Target Support Files/Pods-GenFlowTest-GenFlowTestTests/Pods-GenFlowTest-GenFlowTestTests.debug.xcconfig"; sourceTree = "<group>"; };
-		40894B513281BAA449AE2694 /* libPods-GenFlowTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GenFlowTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		57634C71159692660628EED2 /* Pods-GenFlowTest-GenFlowTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GenFlowTest-GenFlowTestTests.release.xcconfig"; path = "Target Support Files/Pods-GenFlowTest-GenFlowTestTests/Pods-GenFlowTest-GenFlowTestTests.release.xcconfig"; sourceTree = "<group>"; };
-		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = GenFlowTest/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		C3E4606B3BCA4664ECCA5F73 /* libPods-GenFlowTest-GenFlowTestTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GenFlowTest-GenFlowTestTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C916A2121163D7E96DD8744E /* Pods-GenFlowTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GenFlowTest.release.xcconfig"; path = "Target Support Files/Pods-GenFlowTest/Pods-GenFlowTest.release.xcconfig"; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* watertrackerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = watertrackerTests.m; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* watertracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = watertracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = watertracker/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = watertracker/AppDelegate.m; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = watertracker/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = watertracker/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = watertracker/main.m; sourceTree = "<group>"; };
+		1C2877BECD595E41D23EC4C1 /* Pods-watertracker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-watertracker.debug.xcconfig"; path = "Target Support Files/Pods-watertracker/Pods-watertracker.debug.xcconfig"; sourceTree = "<group>"; };
+		319EF26709B2E0DEB6382DA7 /* Pods-watertracker-watertrackerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-watertracker-watertrackerTests.debug.xcconfig"; path = "Target Support Files/Pods-watertracker-watertrackerTests/Pods-watertracker-watertrackerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		40894B513281BAA449AE2694 /* libPods-watertracker.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-watertracker.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		57634C71159692660628EED2 /* Pods-watertracker-watertrackerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-watertracker-watertrackerTests.release.xcconfig"; path = "Target Support Files/Pods-watertracker-watertrackerTests/Pods-watertracker-watertrackerTests.release.xcconfig"; sourceTree = "<group>"; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = watertracker/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C3E4606B3BCA4664ECCA5F73 /* libPods-watertracker-watertrackerTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-watertracker-watertrackerTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C916A2121163D7E96DD8744E /* Pods-watertracker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-watertracker.release.xcconfig"; path = "Target Support Files/Pods-watertracker/Pods-watertracker.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -51,7 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9436ACD56CD6B19B63252B9E /* libPods-GenFlowTest-GenFlowTestTests.a in Frameworks */,
+				9436ACD56CD6B19B63252B9E /* libPods-watertracker-watertrackerTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,20 +59,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1BEB017F374EE3787B32805C /* libPods-GenFlowTest.a in Frameworks */,
+				1BEB017F374EE3787B32805C /* libPods-watertracker.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		00E356EF1AD99517003FC87E /* GenFlowTestTests */ = {
+		00E356EF1AD99517003FC87E /* watertrackerTests */ = {
 			isa = PBXGroup;
 			children = (
-				00E356F21AD99517003FC87E /* GenFlowTestTests.m */,
+				00E356F21AD99517003FC87E /* watertrackerTests.m */,
 				00E356F01AD99517003FC87E /* Supporting Files */,
 			);
-			path = GenFlowTestTests;
+			path = watertrackerTests;
 			sourceTree = "<group>";
 		};
 		00E356F01AD99517003FC87E /* Supporting Files */ = {
@@ -83,7 +83,7 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		13B07FAE1A68108700A75B9A /* GenFlowTest */ = {
+		13B07FAE1A68108700A75B9A /* watertracker */ = {
 			isa = PBXGroup;
 			children = (
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
@@ -93,15 +93,15 @@
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
 				13B07FB71A68108700A75B9A /* main.m */,
 			);
-			name = GenFlowTest;
+			name = watertracker;
 			sourceTree = "<group>";
 		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				40894B513281BAA449AE2694 /* libPods-GenFlowTest.a */,
-				C3E4606B3BCA4664ECCA5F73 /* libPods-GenFlowTest-GenFlowTestTests.a */,
+				40894B513281BAA449AE2694 /* libPods-watertracker.a */,
+				C3E4606B3BCA4664ECCA5F73 /* libPods-watertracker-watertrackerTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -116,9 +116,9 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
-				13B07FAE1A68108700A75B9A /* GenFlowTest */,
+				13B07FAE1A68108700A75B9A /* watertracker */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
-				00E356EF1AD99517003FC87E /* GenFlowTestTests */,
+				00E356EF1AD99517003FC87E /* watertrackerTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				CA9F063E44CCC687D5B9F122 /* Pods */,
@@ -131,8 +131,8 @@
 		83CBBA001A601CBA00E9B192 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				13B07F961A680F5B00A75B9A /* GenFlowTest.app */,
-				00E356EE1AD99517003FC87E /* GenFlowTestTests.xctest */,
+				13B07F961A680F5B00A75B9A /* watertracker.app */,
+				00E356EE1AD99517003FC87E /* watertrackerTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -140,10 +140,10 @@
 		CA9F063E44CCC687D5B9F122 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				1C2877BECD595E41D23EC4C1 /* Pods-GenFlowTest.debug.xcconfig */,
-				C916A2121163D7E96DD8744E /* Pods-GenFlowTest.release.xcconfig */,
-				319EF26709B2E0DEB6382DA7 /* Pods-GenFlowTest-GenFlowTestTests.debug.xcconfig */,
-				57634C71159692660628EED2 /* Pods-GenFlowTest-GenFlowTestTests.release.xcconfig */,
+				1C2877BECD595E41D23EC4C1 /* Pods-watertracker.debug.xcconfig */,
+				C916A2121163D7E96DD8744E /* Pods-watertracker.release.xcconfig */,
+				319EF26709B2E0DEB6382DA7 /* Pods-watertracker-watertrackerTests.debug.xcconfig */,
+				57634C71159692660628EED2 /* Pods-watertracker-watertrackerTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -151,9 +151,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		00E356ED1AD99517003FC87E /* GenFlowTestTests */ = {
+		00E356ED1AD99517003FC87E /* watertrackerTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "GenFlowTestTests" */;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "watertrackerTests" */;
 			buildPhases = (
 				C2B86CDD0E27F9E4907FA65D /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
@@ -167,14 +167,14 @@
 			dependencies = (
 				00E356F51AD99517003FC87E /* PBXTargetDependency */,
 			);
-			name = GenFlowTestTests;
-			productName = GenFlowTestTests;
-			productReference = 00E356EE1AD99517003FC87E /* GenFlowTestTests.xctest */;
+			name = watertrackerTests;
+			productName = watertrackerTests;
+			productReference = 00E356EE1AD99517003FC87E /* watertrackerTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		13B07F861A680F5B00A75B9A /* GenFlowTest */ = {
+		13B07F861A680F5B00A75B9A /* watertracker */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "GenFlowTest" */;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "watertracker" */;
 			buildPhases = (
 				65BD2451984037566BD9BC93 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
@@ -189,9 +189,9 @@
 			);
 			dependencies = (
 			);
-			name = GenFlowTest;
-			productName = GenFlowTest;
-			productReference = 13B07F961A680F5B00A75B9A /* GenFlowTest.app */;
+			name = watertracker;
+			productName = watertracker;
+			productReference = 13B07F961A680F5B00A75B9A /* watertracker.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -211,7 +211,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "GenFlowTest" */;
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "watertracker" */;
 			compatibilityVersion = "Xcode 12.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -224,8 +224,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				13B07F861A680F5B00A75B9A /* GenFlowTest */,
-				00E356ED1AD99517003FC87E /* GenFlowTestTests */,
+				13B07F861A680F5B00A75B9A /* watertracker */,
+				00E356ED1AD99517003FC87E /* watertrackerTests */,
 			);
 		};
 /* End PBXProject section */
@@ -270,15 +270,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-GenFlowTest/Pods-GenFlowTest-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-watertracker/Pods-watertracker-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-GenFlowTest/Pods-GenFlowTest-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-watertracker/Pods-watertracker-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GenFlowTest/Pods-GenFlowTest-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-watertracker/Pods-watertracker-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		53C8F3DAB3D54CB5C8A66FAA /* [CP] Copy Pods Resources */ = {
@@ -287,15 +287,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-GenFlowTest/Pods-GenFlowTest-resources-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-watertracker/Pods-watertracker-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-GenFlowTest/Pods-GenFlowTest-resources-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-watertracker/Pods-watertracker-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GenFlowTest/Pods-GenFlowTest-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-watertracker/Pods-watertracker-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		65BD2451984037566BD9BC93 /* [CP] Check Pods Manifest.lock */ = {
@@ -313,7 +313,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-GenFlowTest-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-watertracker-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -326,15 +326,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-GenFlowTest-GenFlowTestTests/Pods-GenFlowTest-GenFlowTestTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-watertracker-watertrackerTests/Pods-watertracker-watertrackerTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-GenFlowTest-GenFlowTestTests/Pods-GenFlowTest-GenFlowTestTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-watertracker-watertrackerTests/Pods-watertracker-watertrackerTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GenFlowTest-GenFlowTestTests/Pods-GenFlowTest-GenFlowTestTests-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-watertracker-watertrackerTests/Pods-watertracker-watertrackerTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		C2B86CDD0E27F9E4907FA65D /* [CP] Check Pods Manifest.lock */ = {
@@ -352,7 +352,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-GenFlowTest-GenFlowTestTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-watertracker-watertrackerTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -365,15 +365,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-GenFlowTest-GenFlowTestTests/Pods-GenFlowTest-GenFlowTestTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-watertracker-watertrackerTests/Pods-watertracker-watertrackerTests-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-GenFlowTest-GenFlowTestTests/Pods-GenFlowTest-GenFlowTestTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-watertracker-watertrackerTests/Pods-watertracker-watertrackerTests-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GenFlowTest-GenFlowTestTests/Pods-GenFlowTest-GenFlowTestTests-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-watertracker-watertrackerTests/Pods-watertracker-watertrackerTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FD10A7F022414F080027D42C /* Start Packager */ = {
@@ -402,7 +402,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00E356F31AD99517003FC87E /* GenFlowTestTests.m in Sources */,
+				00E356F31AD99517003FC87E /* watertrackerTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -420,7 +420,7 @@
 /* Begin PBXTargetDependency section */
 		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 13B07F861A680F5B00A75B9A /* GenFlowTest */;
+			target = 13B07F861A680F5B00A75B9A /* watertracker */;
 			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -428,14 +428,14 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 319EF26709B2E0DEB6382DA7 /* Pods-GenFlowTest-GenFlowTestTests.debug.xcconfig */;
+			baseConfigurationReference = 319EF26709B2E0DEB6382DA7 /* Pods-watertracker-watertrackerTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = GenFlowTestTests/Info.plist;
+				INFOPLIST_FILE = watertrackerTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -449,17 +449,17 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GenFlowTest.app/GenFlowTest";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/watertracker.app/watertracker";
 			};
 			name = Debug;
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 57634C71159692660628EED2 /* Pods-GenFlowTest-GenFlowTestTests.release.xcconfig */;
+			baseConfigurationReference = 57634C71159692660628EED2 /* Pods-watertracker-watertrackerTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
-				INFOPLIST_FILE = GenFlowTestTests/Info.plist;
+				INFOPLIST_FILE = watertrackerTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -473,20 +473,21 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GenFlowTest.app/GenFlowTest";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/watertracker.app/watertracker";
 			};
 			name = Release;
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1C2877BECD595E41D23EC4C1 /* Pods-GenFlowTest.debug.xcconfig */;
+			baseConfigurationReference = 1C2877BECD595E41D23EC4C1 /* Pods-watertracker.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = VLQC5UKC2Y;
 				ENABLE_BITCODE = NO;
-				INFOPLIST_FILE = GenFlowTest/Info.plist;
+				INFOPLIST_FILE = watertracker/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "water-tracker";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -497,7 +498,7 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = GenFlowTest;
+				PRODUCT_NAME = watertracker;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -506,13 +507,14 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C916A2121163D7E96DD8744E /* Pods-GenFlowTest.release.xcconfig */;
+			baseConfigurationReference = C916A2121163D7E96DD8744E /* Pods-watertracker.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = VLQC5UKC2Y;
-				INFOPLIST_FILE = GenFlowTest/Info.plist;
+				INFOPLIST_FILE = watertracker/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "water-tracker";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -523,7 +525,7 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = GenFlowTest;
+				PRODUCT_NAME = watertracker;
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -655,7 +657,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "GenFlowTestTests" */ = {
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "watertrackerTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				00E356F61AD99517003FC87E /* Debug */,
@@ -664,7 +666,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "GenFlowTest" */ = {
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "watertracker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				13B07F941A680F5B00A75B9A /* Debug */,
@@ -673,7 +675,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "GenFlowTest" */ = {
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "watertracker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				83CBBA201A601CBA00E9B192 /* Debug */,

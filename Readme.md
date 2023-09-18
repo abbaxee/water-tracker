@@ -3,7 +3,7 @@
 This project demontrates how to build a water tracker with react native. The project also demostrates how to write a responsive style that scales on different mobile screen sizes.
 
 ### Installation
-
+- FYI: Use Node v14 to run this project
 - Clone the project to your local machine
 - Download and install project dependencies using `npm install`
 - To start the project use `npm start`

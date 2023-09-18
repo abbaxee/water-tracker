@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-               BuildableName = "GenFlowTest.app"
-               BlueprintName = "GenFlowTest"
-               ReferencedContainer = "container:GenFlowTest.xcodeproj">
+               BuildableName = "watertracker.app"
+               BlueprintName = "watertracker"
+               ReferencedContainer = "container:watertracker.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "00E356ED1AD99517003FC87E"
-               BuildableName = "GenFlowTestTests.xctest"
-               BlueprintName = "GenFlowTestTests"
-               ReferencedContainer = "container:GenFlowTest.xcodeproj">
+               BuildableName = "watertrackerTests.xctest"
+               BlueprintName = "watertrackerTests"
+               ReferencedContainer = "container:watertracker.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -55,9 +55,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "GenFlowTest.app"
-            BlueprintName = "GenFlowTest"
-            ReferencedContainer = "container:GenFlowTest.xcodeproj">
+            BuildableName = "watertracker.app"
+            BlueprintName = "watertracker"
+            ReferencedContainer = "container:watertracker.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -72,9 +72,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "GenFlowTest.app"
-            BlueprintName = "GenFlowTest"
-            ReferencedContainer = "container:GenFlowTest.xcodeproj">
+            BuildableName = "watertracker.app"
+            BlueprintName = "watertracker"
+            ReferencedContainer = "container:watertracker.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
